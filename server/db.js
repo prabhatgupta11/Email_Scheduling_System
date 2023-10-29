@@ -1,7 +1,7 @@
 
 const  mongoose=require("mongoose")
 
- const connection =mongoose.connect(`mongodb+srv://prabhat:${process.env.pass}@cluster0.nob5hjt.mongodb.net/version2_car_lot?retryWrites=true&w=majority`, {
+ const connection =mongoose.connect(`mongodb+srv://prabhat:${process.env.pass}@cluster0.nob5hjt.mongodb.net/email_schedule?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
